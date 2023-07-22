@@ -1,0 +1,518 @@
+.Sign-upLINK{
+    color: rgb(187, 133, 144);
+}
+
+.S-Upper{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    position: relative;
+}
+.S-Matter{
+    width: 60%;
+    height: 90%;
+    
+    background-color: bisque;
+    position: absolute;
+    left: 17%;
+    top: 5%;
+    text-align: center;
+}
+.Matter-img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    opacity: 40%;
+}
+.S-Matter h1{
+    color:rgb(226, 125, 142);
+    opacity: 100%;
+    position: relative;
+}
+
+
+.S-Inputs{
+    display:grid;
+    padding: 10px;
+    align-items: center;
+    margin: 6%;
+    opacity: 100%;
+    position:relative;
+    
+    
+}
+.S-Inputs input{
+    width: 100%;
+    height: 40px;
+    margin-top: 3%;
+    border:  solid white;
+   
+    
+    overflow: hidden;
+  text-overflow: ellipsis;
+    
+    
+
+}
+
+.S-Inputs input:hover{
+    box-shadow: 4px 4px 4px 4px rgba(152, 91, 91, 0.19);
+    background-color: rgb(213, 154, 191);
+
+}
+.Matter-input{
+    width: 20%;
+    height: 10%;
+    opacity: 100%;
+    position: relative;
+    padding: 1em 1.5em;
+    color: rgb(218, 221, 223);
+    font-size: 1.15rem;
+    border-radius: 100vmax;
+    background-color: transparent;
+    border: 2px solid #83966d;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  
+    
+}
+.Matter-input:hover{
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: lightcoral;
+}
+
+
+
+
+
+
+
+/*Login Css*/
+
+.L-Head{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(203, 116, 116);
+    position: relative;
+    
+}
+
+.L-Matter{
+    width: 30%;
+    height: 55%;
+    color: rgb(124, 41, 61);
+    position: relative;
+    left: 400px;
+    top: 90px;
+    text-align: center;
+}
+.L-Matter h1{
+    position:relative;
+    
+    
+}
+
+.L-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    
+}
+.L-Inputs{
+    display:grid;
+    margin: 6%;
+    position: relative;
+}
+.L-Inputs input{
+    width: 100%;
+    height: 40px;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: 1px ;
+    background-color: transparent;
+    transition: 0.5s;
+    
+}
+.L-Inputs input:hover{
+    box-shadow: 12px 12px 12px  rgb(195, 65, 93);
+    background-color:rgb(195,65,91) ;
+}
+
+.Submit input{
+    position: relative;
+    width:30%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(199, 29, 134);
+    background-color: transparent;
+    transition: 1s;
+}
+.Submit input:hover{
+    box-shadow: 12px 12px 12px  rgb(195, 65, 93);
+    background-color:rgb(195,65,91) ;
+
+}
+.SSS input{
+    position: relative;
+    width:30%;
+    height: 40px;
+    top: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(199, 29, 134);
+    background-color: transparent;
+    transition: 1s;
+}
+.SSS input:hover{
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px  rgb(195, 65, 93);
+    background-color:rgb(195,65,91) ;
+
+}
+
+/*Screen css */
+
+
+.Main-Head{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(211, 123, 159);
+    position: relative;
+    
+   
+    
+}
+.MM{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.Sc-Matter{
+    width: 100%;
+    height: 420px;
+    position: absolute;
+    background-color: black;
+    
+    
+}
+.Sc-img{
+    width: 100%;
+    height: 100%;
+}
+
+.Sc-Product-List{
+    width: 100%;
+    height: 200px;
+    background-color:pink;
+    position: absolute;
+    top: 420px;
+    
+}
+
+.sreen-jwellery{
+    
+    width: 25%;
+    height: 70%;
+    background-color: transparent;
+    display: inline-flex;
+    transition:  1s;
+    /* border: 10px rgb(15, 14, 14); */
+    
+
+}
+.sreen-jwellery:hover{
+    
+    background-color: rgb(246, 205, 228);
+    width: 300px;
+    height: 300px;
+    transform: uppercase(180deg);
+}
+
+.jwelleryimages{
+position: relative;
+left: 20%;
+
+}
+.jwellerytext{
+    
+    position: absolute;
+    top: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: violet;
+    
+    
+}
+.JWELLERY_TYPE{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 700px;
+    display: inline-flex;
+}
+
+.Gold-Jwellery{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+     position: absolute;
+     left: 700px;
+     top: 30px;
+     background-color: pink;
+}
+.g-jwel{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.g-jwel:hover{
+    background-color: rgb(246, 205, 228);
+    width: 300px;
+    height: 400px;
+    transform: (180deg);
+}
+.Silver-jwellery{
+    height: 300px;
+   width: 250px;
+   border-radius: 20px;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    background-color: pink;
+}
+.s-jwel{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.s-jwel:hover{
+    background-color: rgb(246, 205, 228);
+    height: 400px;
+    width: 300px;
+    /* transform: scaleX(0.5); */
+}
+
+
+/* Jwellery CSS */
+
+.J-Main{
+    width: 100%;
+    height: 900px;
+    background-color: chocolate;
+    position: relative;
+}
+
+.J-Head{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+
+.J-Main_jwellery{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    background-color: rgb(236, 66, 111);
+    
+}
+
+.product2-j{
+    display: grid;
+   
+    
+    padding: 60px;
+    
+}
+.JJ-IMG{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition: 1s;
+}
+.JJ-IMG:hover{
+       opacity: 20%;
+}
+.JJ-txt{
+    position: relative;
+    left: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* Router Css */
+.R-Head{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(79, 44, 44);
+    position: relative;
+}
+.Sign-upLINK{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+
+}
+.Sign-upLINK img:hover{
+    border-color: rgb(239, 18, 18);
+    
+    
+}
+.CartLink{
+    position: absolute;
+    left: 1040px;
+    top: 17px;
+    height: 20px;
+    width: 20px;
+
+
+}
+.Routerbtn{
+    position: absolute;
+    left: 1080px;
+    top: 25px;
+    height: 20px;
+    width: 7%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.bagL{
+    width: 30px;
+    height: 30px;
+}
+.R-Logo{
+    width: 13%;
+    height: 100%;
+    background-color:transparent;
+}
+.R-txt{
+    width: 50%;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    color: rgb(218, 155, 155);
+    
+}
+.RR-TEXT{
+    word-spacing: 30px;
+    margin: 10px;
+}
+
+
+
+/* Select_Jwellery */
+
+.S--Main{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    position: relative;
+}
+
+.S--Head{
+    width: 50% ;
+    height: 500px;
+    background-color: blue;
+    position: absolute;
+}
+.S--Mid{
+    width: 50%;
+    height: 900px;
+    background-color: pink;
+    position: absolute;
+    margin-left: 50%;
+}
+.S--Image{
+    width: 100%;
+    height: 100%;
+    opacity: 70% ;
+    transition: 1s;
+}
+.S--Image:hover{
+     
+    opacity: 100%;
+}
+.SS-BTN{
+    width: 50%;
+    height: 5%;
+    margin-left: 6%;
+    margin-top: 10%;
+    background-color: rgb(255, 171, 185);
+   
+}
+.SS-BTN:hover{
+    background-color: white;
+    
+}
+.SS_BTN_1{
+    width: 50%;
+    height: 5%;
+    margin-left: 6%;
+    margin-top: 3%;
+    background-color: rgb(9, 9, 41);
+    color: white;
+    border: 1px;
+
+}
+.SS-BTN-2{
+    width: 50%;
+    height: 5%;
+    margin-left: 6%;
+    margin-top: 4%;
+    position: relative;
+
+    
+}
+.BTTN-img{
+    height: 100%;
+    width: 10%;
+    opacity: 50%;
+    position: absolute;
+    left: 10%;
+    top: 1px;
+}
+.SS-BTN-2:hover{
+    background-color: white;
+}
+.S--Mid-img{
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    display: inline-flex;
+    margin-top: 10%;
+    position: relative;
+    letter-spacing: 20%;
+}
+.S--Mid_txt{
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    display: inline-flex;
+
+}
+.Mid-img-1{
+    width: 10%;
+    height: 80%;
+    margin-left: 10px;
+    
+}
+.Mid-img-2{
+    width: 14%;
+    height: 80%;
+    margin-left: 20px;
+}
+.Mid-img-3{
+    width:14%;
+    height:80% ;
+    margin-left: 35px;
+}
