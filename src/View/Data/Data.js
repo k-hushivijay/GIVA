@@ -6,9 +6,9 @@ export const Brand = " Parina International Jwellers";
 
 
 export const jwellery_type = [
-    {id:1 , name:"Rings" , image: require('../Images/RINGS/Ring_9.jpg')},
+    {id:1 , name:"Rings" , image: require('../Images/RINGS/Ringssss.avif')},
     {id:2, name:"Pendants", image: require('../Images/Pandents/Pandent Logo.avif')},
-    {id:3, name:"Bangles", image: require('../Images/BANGLES/Bangles_2.png')},
+    {id:3, name:"Bangles", image: require('../Images/BANGLES/Banglee.avif')},
     {id:4, name:"Earings" , image: require('../Images/EarRings/EarRing Logo.avif')},
 ]
 

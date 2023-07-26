@@ -42,28 +42,28 @@ export default function Router(){
 
         </div>
         
-        
         {
-            user==null?
-            <>
+        user==null?
+        <>
       
        <Link className="Sign-upLINK" to="/Login">
+ </>:
 
-        
+       <button className="Routerbtn" onClick={logout}>Logout</button>
 
-        
+    
 
         
         
         
         <img src={require('../Images/LOGO IMAGES/User.png')}/>
        </Link>
-       </>:
 }
+       
        <Link className="CartLink" to='/Cart'>
         <img  src={require('../Images/LOGO IMAGES/Bag.png')} className="bagL"/>
        </Link>
-       <button className="Routerbtn" onClick={logout}>Logout</button>
+       
        </div>
 
 
